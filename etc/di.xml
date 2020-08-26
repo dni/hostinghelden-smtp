@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+  <preference for="\Magento\Email\Model\Transport" type="Hostinghelden\Smtp\Model\Transport"/>
+  <preference for="\Magento\Framework\Mail\Template\TransportBuilder" type="Hostinghelden\Smtp\Model\Mail\Template\TransportBuilder"/>
+	<type name="Magento\Config\Model\Config\TypePool">
+			<arguments>
+					<argument name="environment" xsi:type="array">
+							<item name="system/smtp/user" xsi:type="string">1</item>
+							<item name="system/smtp/password" xsi:type="string">1</item>
+							<item name="system/smtp/ssl" xsi:type="string">1</item>
+							<item name="system/smtp/method" xsi:type="string">1</item>
+					</argument>
+			</arguments>
+	</type>
+</config>
