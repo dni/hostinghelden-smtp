@@ -1,5 +1,9 @@
-# Hostinghelden Magento2 SMTP Extension
-adds additional configuration to System > Mailsettings and sends all email via smtp
+# Hostinghelden Magento2 Extension Bundle
+
+adds following extension to your installation:
+
+* Hostinghelden/Smtp
+* Hostinghelden/Pdfupload
 
 # Requirements
 
@@ -14,7 +18,7 @@ Add the VCS repository: So that composer can find the module. Add the following 
 ```json
 "repositories": [{
   "type": "vcs",
-  "url": "https://github.com/dni/hostinghelden-smtp"
+  "url": "https://github.com/dni/hostinghelden-magento2"
 }],
 ```
 
@@ -23,5 +27,5 @@ Add the VCS repository: So that composer can find the module. Add the following 
 Add the module to composer:
 
 ```sh
-composer require hostinghelden/hostinghelden-smtp
+composer require hostinghelden/hostinghelden-magento2
 ```
