@@ -14,7 +14,7 @@ Add the VCS repository: So that composer can find the module. Add the following 
 ```json
 "repositories": [{
   "type": "vcs",
-  "url": "https://github.com/javilumbrales/magento2-first-module"
+  "url": "https://github.com/dni/hostinghelden-smtp"
 }],
 ```
 
@@ -23,5 +23,5 @@ Add the VCS repository: So that composer can find the module. Add the following 
 Add the module to composer:
 
 ```sh
-composer require lumbrales-software/magento2-first-module
+composer require hostinghelden/hostinghelden-smtp
 ```
