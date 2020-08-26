@@ -1,0 +1,23 @@
+{
+    "name": "hostinghelden/hostinghelden-smtp",
+    "description": "Adds SMTP functionality",
+    "require": {
+    },
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Hostinghelden/Smtp"
+            ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Daniel Krahofer",
+            "homepage": "https://www.hostinghelden.at/",
+            "role": "Developer"
+        }
+    ]
+}
